@@ -21,7 +21,7 @@ public function onEnable() : void {
  public function onCommand(CommandSender $sender, Command $command, string $label, array $args) : bool {
    switch($command->getName()) {
      case "name":
-       $sender->sendMessage("" . $player->getName(); . "");
+       $sender->sendMessage("Your name is §b»" . $player->getName() . "");
        
        return true;
    default:
