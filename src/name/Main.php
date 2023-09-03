@@ -18,7 +18,7 @@ public function onEnable() : void {
   $this->getLogger()->info("Name has been enabled");
   $this->getLogger()->info("This plugin user MIT-License");
   }
- public function onCommand(CommandSender $sender, Command $command, string $label, array $argd) : bool {
+ public function onCommand(CommandSender $sender, Command $command, string $label, array $args, Listener $event) : bool {
    switch($command->getName()) {
      case "name":
               $player = $event->getPlayer();
