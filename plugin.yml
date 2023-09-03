@@ -1,0 +1,6 @@
+name: Name
+api: 5.0.0
+main: name\Main
+version: 0.0.1-beta
+author: Frozeado
+description: "Basic Plugin"
