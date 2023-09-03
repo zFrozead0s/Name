@@ -3,7 +3,7 @@
 namespace name;
 
 
-use pocketmine\plugin\pluginBase;
+use pocketmine\plugin\PluginBase;
 use pocketmine\utils\Config;
 use pocketmine\player\PlayerInfo;
 use pocketmine\Server;
